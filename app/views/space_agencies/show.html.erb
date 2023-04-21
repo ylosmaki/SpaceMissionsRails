@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @space_agency %>
+
+<div>
+  <%= link_to "Edit this space agency", edit_space_agency_path(@space_agency) %> |
+  <%= link_to "Back to space agencies", space_agencies_path %>
+
+  <%= button_to "Destroy this space agency", @space_agency, method: :delete %>
+</div>

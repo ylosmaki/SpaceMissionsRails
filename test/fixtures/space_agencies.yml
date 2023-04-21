@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  headquarters: MyString
+  exists: false
+
+two:
+  name: MyString
+  headquarters: MyString
+  exists: false

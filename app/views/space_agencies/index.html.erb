@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Space agencies</h1>
+
+<div id="space_agencies">
+  <% @space_agencies.each do |space_agency| %>
+    <%= render space_agency %>
+    <p>
+      <%= link_to "Show this space agency", space_agency %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New space agency", new_space_agency_path %>
+<br>
+<br>
+<%= link_to "Back to homepage", root_path %>
